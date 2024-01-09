@@ -1,0 +1,26 @@
+version: '3.1'
+services:
+  task-manage:
+    container_name: task-manage
+    image: gant26/task-manager
+    build: task-manage
+    depends_on:
+      - task-db
+    ports:
+      - "9090:9090"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://task-db:5432/task
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
+
+  task-db:
+      image: postgres:latest
+      container_name: task-db
+      volumes:
+        - /var/lib/postgresql/data/
+      ports:
+        - "5431:5431"
+      environment:
+        - POSTGRES_DB=task
+        - POSTGRES_USER=root
+        - POSTGRES_PASSWORD=root

@@ -3,36 +3,215 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BeansEndpointTabSettings">
+    <option name="showContexts" value="false" />
+    <option name="showDoc" value="false" />
+    <option name="showFiles" value="false" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce144a3-8883-496b-857c-b3671ed5ec90" name="Changes" comment="" />
+    <list default="true" id="bce144a3-8883-496b-857c-b3671ed5ec90" name="Changes" comment="feat: закончил основную функциональност">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/configs/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/configs/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/controller/TodoListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/dto/FileDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/dto/JwtRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/dto/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/dto/NewUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/dto/RegistrationUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/dto/TaskDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/dto/TodoListDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/entity/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/entity/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/entity/TodoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/exception/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/exception/ExeptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/exception/TaskNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/exception/TaskValidFailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/exception/TodoEcxeption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/exception/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/mapper/FileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/mapper/TaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/mapper/TodoListMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/repository/FileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/repository/TodoListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/service/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/service/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/service/TodoListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/utils/JwtPassEncoded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/utils/JwtTokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manage/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manage/src/test/java/ru/efomenko/AppTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2Zd0cFpFYfkyfOjispBxRlRQfIC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.All in generated-requests.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.task-manage [clean,compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.task-manage [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.task-tracker [clean,compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.task-tracker [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.App.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gant2/YandexDisk/miscelnous/task-tracker&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.efomenko.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gant2\IdeaProjects\task-tracker" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gant2\IdeaProjects\task-tracker\task-manage" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="security-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="security-service" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="task-manage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.efomenko.App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.efomenko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.All in generated-requests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -49,10 +228,51 @@
       <option name="presentableId" value="Default" />
       <updated>1702736729550</updated>
       <workItem from="1702736730776" duration="12000" />
+      <workItem from="1702737092339" duration="70000" />
+      <workItem from="1702737169566" duration="13179000" />
+      <workItem from="1702793976464" duration="7187000" />
+      <workItem from="1702813890676" duration="1240000" />
+      <workItem from="1702899727178" duration="2357000" />
+      <workItem from="1703063997817" duration="10034000" />
+      <workItem from="1703151465971" duration="928000" />
+      <workItem from="1703428161138" duration="21348000" />
+      <workItem from="1703500565904" duration="598000" />
+      <workItem from="1703501195022" duration="10229000" />
+      <workItem from="1703515110952" duration="111000" />
+      <workItem from="1703515232754" duration="14380000" />
+      <workItem from="1703601120786" duration="9617000" />
+      <workItem from="1703681195629" duration="7499000" />
+      <workItem from="1703698483755" duration="9270000" />
+      <workItem from="1703863157569" duration="8807000" />
+      <workItem from="1703948150225" duration="3834000" />
+      <workItem from="1704277388420" duration="4111000" />
+      <workItem from="1704794734770" duration="404000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/task-manage/src/main/java/ru/efomenko/controller/AuthController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
